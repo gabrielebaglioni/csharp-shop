@@ -3,7 +3,7 @@ class Store
     public List<Shirt> ShirtList { get; set; }
     public List<Shirt> Shoppinglist { get; set; }
 
-    public Store()
+    public  Store()
     {
         ShirtList = new List<Shirt>();
         Shoppinglist = new List<Shirt>(); 
